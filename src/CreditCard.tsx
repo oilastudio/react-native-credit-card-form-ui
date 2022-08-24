@@ -1,5 +1,6 @@
 /* eslint-disable no-underscore-dangle */
 /* eslint-disable global-require */
+// @ts-nocheck
 import * as React from 'react';
 import * as yup from 'yup';
 
