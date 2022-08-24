@@ -1,6 +1,6 @@
 {
   "name": "react-native-credit-card-form-ui-tomalex",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "Another CreditCard Form UI for React Native",
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",
