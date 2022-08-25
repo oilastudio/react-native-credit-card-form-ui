@@ -7,6 +7,22 @@ export const CardSideEnum = {
   BACK: 'BACK',
 };
 
+const styles = StyleSheet.create({
+  sideWrapper: {
+    width: '100%',
+    height: '100%',
+    position: 'absolute',
+    backgroundColor: '#f1f1f1',
+    borderRadius: 9,
+  },
+  container: {
+    position: 'relative',
+    width: '100%',
+    height: '100%',
+    padding: 16,
+  },
+});
+
 const CardSide = ({
   children,
   style = [],
@@ -34,21 +50,5 @@ const CardSide = ({
     </Animated.View>
   );
 };
-
-const styles = StyleSheet.create({
-  sideWrapper: {
-    width: '100%',
-    height: '100%',
-    position: 'absolute',
-    backgroundColor: '#f1f1f1',
-    borderRadius: 9,
-  },
-  container: {
-    position: 'relative',
-    width: '100%',
-    height: '100%',
-    padding: 16,
-  },
-});
 
 export default CardSide;
